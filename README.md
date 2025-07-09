@@ -3,9 +3,9 @@
 To analyze dairy product performance using an interactive Power BI dashboard by exploring metrics like total value, revenue, customer reach, brand distribution, and storage conditions. This helps stakeholders monitor inventory levels, identify sales trends, and optimize distribution based on product lifecycle and storage modes.
 
 **🧰 Tools Used:**<br>
-Power BI – Dashboard development and data visualization
-Power Query – Data transformation and cleaning and modeling
-DAX – Custom calculations and KPIs
+1. Power BI – Dashboard development and data visualization
+2. Power Query – Data transformation and cleaning and modeling
+3. DAX – Custom calculations and KPIs
 
 **📦 Dataset Overview:**<br>
 | Column Name                   | Description                                            |
