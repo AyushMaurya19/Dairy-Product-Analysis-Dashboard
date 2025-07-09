@@ -34,20 +34,20 @@ To analyze dairy product performance using an interactive Power BI dashboard by 
 
 
 **📌 Key Metrics & KPIs:**<br>
-Total Value: 118M
-Total Revenue: 58.73M
-Customer Locations: 15
-Total Brands: 11
-Storage Conditions: 5
-Sales Modes: 3
-Min Stock Threshold vs Available Stock
-Revenue Trends by Month & Week
+1. Total Value: 118M
+2. Total Revenue: 58.73M
+3. Customer Locations: 15
+4. Total Brands: 11
+5. Storage Conditions: 5
+6. Sales Modes: 3
+7. Min Stock Threshold vs Available Stock
+8. Revenue Trends by Month & Week
 
 **📊 Visualizations:**<br>
-📅 Revenue by Month & Week
-🧑‍🌾 Value by Farm Size
-🧊 Value by Storage Condition
-📉 Quantity in Stock vs Minimum Stock Threshold
+1. 📅 Revenue by Month & Week
+2. 🧑‍🌾 Value by Farm Size
+3. 🧊 Value by Storage Condition
+4. 📉 Quantity in Stock vs Minimum Stock Threshold
 
 **📍 Slicer Panel for filtering by:**<br>
 1. Date Range
