@@ -1,4 +1,4 @@
-# Dairy-Product-analysis-Dashboard
+# Power BI Dairy-Product-analysis-Dashboard
 🎯 **Purpose:**<br>
 To analyze and monitor the performance of dairy products across multiple categories such as time, location, brand, farm size, storage condition, and sales mode — helping stakeholders improve supply chain efficiency, optimize stock levels, and boost revenue.
 
