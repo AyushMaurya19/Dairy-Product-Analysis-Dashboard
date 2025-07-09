@@ -56,5 +56,5 @@ Products sold across 15 customer locations.
 11 unique brands and 5 storage types contribute to product variety.
 3 different sales modes ( online, retail, and wholesale) are used, offering sales flexibility.
 
-**📸 Dashboard Snapshot:**
-
+**📸 Dashboard Snapshot:** 
+(https://github.com/AyushMaurya19/Dairy-Product-analysis-Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
