@@ -1,60 +1,76 @@
-# Power BI Dairy-Product-analysis-Dashboard
-🎯 **Purpose:**<br>
-To analyze and monitor the performance of dairy products across multiple categories such as time, location, brand, farm size, storage condition, and sales mode — helping stakeholders improve supply chain efficiency, optimize stock levels, and boost revenue.
+# 🧀 Power BI Dairy-Product-analysis-Dashboard
+**📌 Objective:**<br>
+To analyze dairy product performance using an interactive Power BI dashboard by exploring metrics like total value, revenue, customer reach, brand distribution, and storage conditions. This helps stakeholders monitor inventory levels, identify sales trends, and optimize distribution based on product lifecycle and storage modes.
 
-**📌 Key Features:**<br>
-Interactive Filters Panel:
+**🧰 Tools Used:**<br>
+Power BI – Dashboard development and data visualization
+Power Query – Data transformation and cleaning and modeling
+DAX – Custom calculations and KPIs
 
-1. Slice data by date, location, farm size, brand, storage condition, shelf life, and sales mode.
-Helps users drill down into specific segments for focused analysis.
+**📦 Dataset Overview:**<br>
+| Column Name                   | Description                                            |
+| ----------------------------- | ------------------------------------------------------ |
+| `Location`                    | State or region where the dairy farm is located        |
+| `Total Land Area (acres)`     | Size of the dairy farm in acres                        |
+| `Number of Cows`              | Number of cows per farm                                |
+| `Farm Size`                   | Categorized as Small, Medium, or Large                 |
+| `Date`                        | Date of record                                         |
+| `Product ID` / `Product Name` | Unique identifier and name of the dairy product        |
+| `Brand`                       | Brand under which the product is sold                  |
+| `Quantity (liters/kg)`        | Initial product quantity produced                      |
+| `Price per Unit`              | Unit price of the product                              |
+| `Total Value`                 | Total value based on produced quantity and unit price  |
+| `Shelf Life (days)`           | Number of days the product remains sellable            |
+| `Storage Condition`           | Required storage (e.g., Refrigerated, Frozen, Ambient) |
+| `Quantity Sold (liters/kg)`   | Amount sold                                            |
+| `Price per Unit (sold)`       | Selling price per unit                                 |
+| `Approx. Total Revenue (INR)` | Revenue generated from sales                           |
+| `Customer Location`           | Buyer location                                         |
+| `Sales Channel`               | Online, Retail, or Wholesale                           |
+| `Quantity in Stock`           | Remaining product in stock                             |
+| `Minimum Stock Threshold`     | Minimum threshold before reorder is needed             |
+| `Reorder Quantity`            | Suggested amount to reorder when stock is low          |
 
-2. Dynamic KPIs:
-Displays real-time metrics including Total Value, Total Revenue, Number of Customer Locations, Total Brands, Storage Conditions, and Sales Modes.
 
-3. Time-Based Revenue Analysis:
-Monthly and weekly revenue trends shown via bar and line charts to identify peak sales periods and low-performing durations.
 
-4. Category-Based Value Distribution:
-Donut charts break down total value by farm size (Large, Medium, Small) and storage condition (Refrigerated, Frozen, etc.).
+**📌 Key Metrics & KPIs:**<br>
+Total Value: 118M
+Total Revenue: 58.73M
+Customer Locations: 15
+Total Brands: 11
+Storage Conditions: 5
+Sales Modes: 3
+Min Stock Threshold vs Available Stock
+Revenue Trends by Month & Week
 
-5. Stock Monitoring:
-A gauge chart compares quantity in stock vs minimum stock threshold, aiding inventory management and restocking decisions.
+**📊 Visualizations:**<br>
+📅 Revenue by Month & Week
+🧑‍🌾 Value by Farm Size
+🧊 Value by Storage Condition
+📉 Quantity in Stock vs Minimum Stock Threshold
 
-6. Modern Visual Aesthetics:
-Visually appealing theme with clean layout, rounded cards, bold typography, and a cartoon dairy mascot for brand personality.
+**📍 Slicer Panel for filtering by:**<br>
+Date Range
+Location
+Farm Size
+Brand
+Storage Condition
+Shelf Life
+Sales Mode
 
-**🔎 Key Insights**<br>
+**🔍 Recommended Analysis:**<br>
+1. Monitor monthly and weekly revenue trends for seasonal planning
+2. Identify top-performing storage conditions and optimize logistics
+3. Compare performance across farm sizes to target supply partnerships
+4. Use the stock threshold gauge to avoid inventory shortages
+5. Track brand-level performance across multiple sales modes
 
-1. 📈 Revenue Trends:
-
-Total Revenue: ₹58.73M generated between 2019 and 2022.
-
-Highest Monthly Revenue: January (~₹5.9M), followed by October and May.
-
-Lowest Revenue Month: April (~₹4.3M), suggesting potential seasonality or low demand.
-
-Revenue by Day: Sunday generates the highest weekly revenue (~₹9M), indicating strong weekend demand.
-
-Saturday shows the lowest (~₹7.9M), which may be an area for improvement.
-
-2. 🧊 Storage Insights:
-
-Most Common Storage Type:
-Refrigerated products contribute the most (₹68.41M, 57.82%) to total value.
-Least Used Storage:
-Polythene-wrapped storage has the lowest share (₹5.63M, 4.76%).
-
-3. 🚜 Farm Size Contribution:
-   
-Fairly even distribution of product value among:
-Medium farms: ₹40.79M (34.48%)
-Large farms: ₹38.86M (32.85%)
-Small farms: ₹38.67M (32.68%)
-
-4. 🧾 Customer and Product Diversity:
-Products sold across 15 customer locations.
-11 unique brands and 5 storage types contribute to product variety.
-3 different sales modes ( online, retail, and wholesale) are used, offering sales flexibility.
+**🔎 Key Insights:**<br>
+1. The highest revenue month was January with over 5.9M
+2. Refrigerated storage accounts for 58% of total value
+3. Revenue is fairly consistent across the week, peaking on Sunday
+4. There is a significant stock gap below the minimum threshold
+5. Large farms contribute the most to overall product value
 
 **📸 Dashboard Snapshot:** 
 ![Dashboard Snapshot](https://github.com/AyushMaurya19/Dairy-Product-analysis-Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
