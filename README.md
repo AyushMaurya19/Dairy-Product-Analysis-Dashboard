@@ -57,4 +57,5 @@ Products sold across 15 customer locations.
 3 different sales modes ( online, retail, and wholesale) are used, offering sales flexibility.
 
 **📸 Dashboard Snapshot:** 
-(https://github.com/AyushMaurya19/Dairy-Product-analysis-Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
+![Dashboard Snapshot](https://github.com/AyushMaurya19/Dairy-Product-analysis-Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
+
