@@ -50,13 +50,13 @@ Revenue Trends by Month & Week
 📉 Quantity in Stock vs Minimum Stock Threshold
 
 **📍 Slicer Panel for filtering by:**<br>
-Date Range
-Location
-Farm Size
-Brand
-Storage Condition
-Shelf Life
-Sales Mode
+1. Date Range
+2. Location
+3. Farm Size
+4. Brand
+5. Storage Condition
+6. Shelf Life
+7. Sales Mode
 
 **🔍 Recommended Analysis:**<br>
 1. Monitor monthly and weekly revenue trends for seasonal planning
